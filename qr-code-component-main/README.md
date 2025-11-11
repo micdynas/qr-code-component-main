@@ -15,7 +15,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
 
@@ -43,51 +43,68 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+ I learnt how to integrate bootsrap into my code to ensure responsiveness of the body, it was a little difficult to choose the right properties in css to get the body and the .card to work and be seen as the style guide declared.
 
-To see how you can add code snippets, see below:
+But i believe i did a good job with the things i used. Always open to constructive critism on how to get better.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+body{
+ padding-top: 100px;
+ display: flex;
+ justify-content: center;
+  align-items: center;
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+
+.card{
+    width: 16rem;
+    height: 27rem;
+    border-radius: 15px;
+     display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 5px  rgb(212, 210, 210);
+    
+}
+.card-img-top{
+    
+    border-radius: 10px;
+    width: 14rem;
+    height: 14rem;
+    margin: 15px 0;
+
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-title{
+    font-size: large;
+    font-weight: bold;
+   padding-bottom: 10px;
+}
+
+.card-text{
+    font-size: small;
+    font-weight: 400;
+    color: grey;
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
+I would to continue focusing on how to reduce the quantity of my css code while improving its 
+efficiency.
+And I would also like to make my own QR Generator so this could be used as a default template.
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- (https://getbootstrap.com/docs/5.3/components/card/)- At some point i got stuck on how to implement the card component in bootstrap and this helped
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+
 
 ## Author
+- Frontend Mentor - @micdynas
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
